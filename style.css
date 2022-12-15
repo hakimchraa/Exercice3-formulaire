@@ -1,0 +1,99 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+}
+
+.container-global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-legend {
+    margin-bottom: 10px;
+}
+
+.main-form {
+    background-color: azure;
+    border: grey solid;
+    padding: 20px;
+    width: 450px;
+
+}
+
+fieldset {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #DF3F3F;
+}
+
+legend {
+    color: #DF3F3F;
+    font-weight: bold
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+label.inline {
+    display: inline;
+    margin-right: 30px;
+}
+
+input,
+textarea,
+select,
+option {
+    background-color: #FFF3F3;
+    margin: 15px;
+}
+
+input,
+textarea,
+select {
+    padding: 3px;
+    border: 1px solid #F5C5C5;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+
+
+#email {
+    margin-left: 0px;
+}
+
+#utilise {
+    margin-left: 0px;
+}
+
+.comments {
+    width:  395px  ;
+    height: 144px ;
+    margin: 10px 0px 0px 0px;
+}
+
+.radio-type {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+}
+
+
+.main-form__bouton {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.frequence-radio {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 10px;
+
+}

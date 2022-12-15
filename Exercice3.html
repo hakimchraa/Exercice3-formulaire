@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exercice3 Formulaire</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+   <div class="container-global">
+      <form class="main-form" action="#" method="post">
+
+         <fieldset>
+            <legend class="about-legend"> A propos des CSS : </legend>
+
+            <fieldset>
+               <legend>Savez-vous ce que veut dire CSS ? :</legend>
+               <input type="radio" name="CSS" value="oui" class="radio-type" id="oui" checked="checked">
+               <label for="oui" class="inline">oui</label>
+               <input type="radio" name="CSS" value="non" class="radio-type" id="non">
+               <label for="non" class="inline">non</label>
+            </fieldset>
+
+            <fieldset>
+               <legend>Si oui, les utilisez-vous plutôt : </legend>
+               <select name="utilise" id="utilise">
+                  <option value="toujours"> toujours</option>
+                  <option value="parfois"> parfois</option>
+                  <option value="jamais"> jamais</option>
+               </select>
+            </fieldset>
+
+            <fieldset>
+               <legend>Que signifie CSS ?</legend>
+               <div class="frequence-radio">
+                  <input type="radio" class="radio-type" id="SimpleSamples" name="definition" value="SimpleSamples" checked>
+                  <label for="SimpleSamples"> Create Simple Samples </label>
+
+                  <input type="radio" class="radio-type" id="StyleSheets" name="definition" value="StyleSheets">
+                  <label for="StyleSheets"> Cascading Style Sheets </label>
+
+                  <input type="radio" class="radio-type" id="supersimple" name="definition" value="supersimple">
+                  <label for="supersimple">C'est Super Simple ! </label>
+               </div>
+            </fieldset>
+
+         </fieldset>
+
+         <fieldset>
+            <legend> Vos coordonnées :</legend>
+            <label for="email">Votre email : *</label>
+            <input type="email" name="email" size="20" maxlength="40" value="email" id="email" placeholder="Votre email (champ obligatoire)">
+
+            <label for="comments">Votre avis :</label>
+            <textarea name="comments" class="comments" cols="20" rows="4" placeholder="Vous pouvez saisir ici votre avis">  </textarea>
+         </fieldset>
+
+
+         <div class="main-form__bouton">
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+         </div>
+
+      </form>
+   </div>
+</body>
+
+
+
+</html>
